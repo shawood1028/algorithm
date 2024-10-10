@@ -18,8 +18,8 @@ class Solution {
         int[][] res = new int[1][1];
 
         List<List<Integer>> aveArr = new ArrayList<>();
-        System.out.println(Arrays.deepToString(aveArr.toArray()));
-//        return Arrays.asList(aveArr);
+        System.out.println(Arrays.deepToString(items));
+        Arrays.sort(items);
         return res;
     }
 }
